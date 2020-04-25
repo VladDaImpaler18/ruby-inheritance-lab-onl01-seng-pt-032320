@@ -1,3 +1,4 @@
+require 'pry'
 class Student < User
   attr_accessor :knowledge
   
@@ -12,3 +13,4 @@ class Student < User
   
 
 end
+binding.pry
